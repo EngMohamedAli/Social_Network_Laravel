@@ -1,0 +1,181 @@
+html 
+{
+    position: relative;
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    background-color: #006666;
+    min-height: 2000px;
+    padding-top: 70px;
+}
+
+.navbar
+{
+  background:black;
+  height: 70px;
+}
+
+a > h5
+{
+    color: orange;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.form-control
+{
+    width: 350px;
+}
+
+.lab_email
+{
+    margin-right: 250px;
+    font-size: 20px;
+}
+
+.lab_pass
+{
+    margin-right: 210px;
+    font-size: 20px;
+}
+
+.newAcctxt
+{
+    color: black;
+}
+
+.newAcclink
+{
+    color: white;
+}
+
+.lgbtn
+{
+    width: 75px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.supbtn
+{
+    width: 90px;
+    height: 50px;
+    font-size: 20px;    
+}
+
+.form-control , .form-group
+{
+    color: #000000;
+    font-size: 18px;
+    font:bolder;
+}
+
+h1
+{
+    color: #000000;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+
+.lik
+{
+    color: orangered;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.lik:hover , .lik:visited , .lik:active , .lik:checked , .lik:enabled , .lik:after , .lik:before , .lik:focus{
+    color: orangered;
+}
+
+.dislik
+{
+    color: violet;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.dislik:hover , .dislik:visited , .dislik:active , .dislik:checked , .dislik:enabled , .dislik:after , .dislik:before , .dislik:focus{
+    color: violet;
+}
+.edit
+{
+    color: #00cc00;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.edit:hover , .del:hover , .lik:hover , .dislik:hover
+{
+    color: #000000;
+}
+
+.del
+{
+    color: #990000;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.new-post {
+    padding: 16px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.bod
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.new-post header,
+.posts header {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.posts .post {
+    padding-left: 10px;
+    border-left: 3px solid blue;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.posts .post .info {
+    color:  #000000;
+    font-weight: bolder;
+}
+
+.error,
+.success {
+    text-align: center;
+    font-size: 18px;
+}
+
+.error {
+    border: 1px solid darkred;
+    background-color: white;
+    color: red;
+}
+
+.error ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+
